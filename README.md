@@ -1,7 +1,7 @@
 
 # Project Name
 
-> Description the project.
+> Admin Dashboard
 
 
 ## Built With
