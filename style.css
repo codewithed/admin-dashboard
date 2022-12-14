@@ -6,9 +6,24 @@
     font-family: 'Roboto Slab', serif;
 }
 
+.announcements {
+    display: grid;
+    gap: 20px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.announcement-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 1fr 5fr;
 }
 
@@ -27,9 +42,11 @@
 }
 
 .projects-section {
+    padding: 30px;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 2/3;
-    gap: 40px;
+    gap: 30px;
     background-color: whitesmoke;
 }
 
@@ -39,8 +56,23 @@
     display: inline-block;
     padding: 30px;
     width: 250px;
+    border-radius: 7px;
+}
+
+.project-card:hover {
+    border: 2px solid #a4d5ff;
+    box-shadow: 2px 2px grey;
 }
 
 li {
     list-style: none;
 }
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#FFFF00;
+    height: 1px;
+  }
